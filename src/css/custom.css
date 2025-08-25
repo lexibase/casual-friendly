@@ -1,0 +1,40 @@
+@import url('https://cdn.jsdelivr.net/gh/catppuccin/prismjs/themes/mocha.css');
+
+:root {
+  --ifm-color-primary: oklch(67.198% 0.11492 55.7);
+  --ifm-color-primary-dark: oklch(61.059% 0.10562 55.7);
+  --ifm-color-primary-darker: oklch(55.029% 0.09485 55.7);
+  --ifm-color-primary-darkest: oklch(48.226% 0.08197 55.7);
+  --ifm-color-primary-light: oklch(72.104% 0.10454 55.7);
+  --ifm-color-primary-lighter: oklch(75.967% 0.09578 55.7);
+  --ifm-color-primary-lightest: oklch(81.35% 0.07789 55.7);
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: oklch(67.198% 0.11492 55.7 / 0.1);
+
+  /* SIZES */
+  /* --doc-sidebar-width: 225px; */
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: oklch(74.742% 0.10087 55.7);
+  --ifm-color-primary-dark: oklch(68.815% 0.09147 55.7);
+  --ifm-color-primary-darker: oklch(61.377% 0.08223 55.7);
+  --ifm-color-primary-darkest: oklch(54.254% 0.07272 55.7);
+  --ifm-color-primary-light: oklch(78.684% 0.0911 55.7);
+  --ifm-color-primary-lighter: oklch(83.163% 0.07791 55.7);
+  --ifm-color-primary-lightest: oklch(88.501% 0.05844 55.7);
+  --docusaurus-highlighted-code-line-bg: oklch(74.742% 0.10087 55.7 / 0.2);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: calc(.275rem * 1.25 * 1);
+}
+hr {
+  margin: .5rem 0 1.25rem;
+}
+
+@media (max-width: 1178px) {
+  :root {
+    --doc-sidebar-width: 220px;
+  }
+}
