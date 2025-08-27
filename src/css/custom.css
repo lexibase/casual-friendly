@@ -16,6 +16,12 @@
 }
 
 [data-theme='dark'] {
+  --ifm-background-color: oklch(15% 0 0);
+  --ifm-background-surface-color: oklch(15% 0 0);
+  --ifm-navbar-background-color: oklch(15% 0 0);
+  --footer--dark: oklch(20% 0 0);
+  --ifm-color-content: oklch(100% 0 0);
+
   --ifm-color-primary: oklch(74.742% 0.10087 55.7);
   --ifm-color-primary-dark: oklch(68.815% 0.09147 55.7);
   --ifm-color-primary-darker: oklch(61.377% 0.08223 55.7);
@@ -24,6 +30,24 @@
   --ifm-color-primary-lighter: oklch(83.163% 0.07791 55.7);
   --ifm-color-primary-lightest: oklch(88.501% 0.05844 55.7);
   --docusaurus-highlighted-code-line-bg: oklch(74.742% 0.10087 55.7 / 0.2);
+}
+
+.theme-doc-sidebar-container,
+.footer--dark {
+  background-color: oklch(20% 0 0);
+}
+.theme-doc-sidebar-container {
+  border-right: 1px solid oklch(40% 0 0);
+}
+.footer--dark {
+  border-top: 1px solid oklch(40% 0 0);
+}
+.table-of-contents__left-border {
+  border:none;
+}
+
+.navbar {
+  border-bottom: 1px solid oklch(40% 0 0);
 }
 
 h1, h2, h3, h4, h5, h6 {
