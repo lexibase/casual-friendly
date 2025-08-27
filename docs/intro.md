@@ -1,64 +1,86 @@
 ---
 sidebar_position: 1
 ---
+import DocCardList from '@theme/DocCardList';
 
-# Tutorial Intro
+# Casual-Friendly
 
-Let's discover **Docusaurus in less than 5 minutes**.
+---
+14 de agosto de 2025
 
-```css title="css porra" showLineNumber
-function HighlightSomeText(highlight) {
-  if (highlight) {
-    return 'This text is highlighted!';
-  }
+---
 
-  return 'Nothing highlighted';
-}
+O **Casual-Friendly** é um selo linguístico de padronização de localização voltado para jogos, criado com o propósito de tornar a experiência de jogo mais acessível, fluida e envolvente para o público casual. Ele estabelece diretrizes claras que orientam tradutores na criação de conteúdos que respeitam o estilo original, mas que também priorizam naturalidade, clareza e empatia na comunicação.
 
-function HighlightMoreText(highlight) {
-  if (highlight) {
-    return 'This range is highlighted!';
-  }
+Mais do que um conjunto de regras, o selo representa uma filosofia de tradução que valoriza o jogador casual sem comprometer a fidelidade ao conteúdo original. Ao promover uma linguagem que soa nativa e acolhedora, o **Casual-Friendly** busca equilibrar técnica e imersão, oferecendo uma experiência de jogo traduzida que parece autêntica desde o primeiro contato.
 
-  return 'Nothing highlighted';
-}
+Sua aplicação se adapta a diferentes contextos dentro dos jogos, como interfaces, diálogos, documentos narrativos (como livros, cartas, diários e notas) e tutoriais, sempre com o objetivo de preservar a essência do jogo enquanto facilita a compreensão e o engajamento do jogador.
 
-## Getting Started
+## Estilo de escrita
 
-Get started by **creating a new site**.
+---
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+O estilo de escrita do selo **Casual-Friendly** é pautado pela naturalidade, empatia e fluidez. A tradução deve soar como se tivesse sido originalmente escrita em português, respeitando o tom, o ritmo e a intenção do conteúdo original.
 
-### What you'll need
+A linguagem é acessível, mas nunca simplista - ela busca envolver o jogador casual sem perder a profundidade e a autenticidade da experiência.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Regras Gerais
 
-## Generate a new site
+---
 
-Generate a new Docusaurus site using the **classic template**.
+> Regras Gerias estabelecem princípios técnicos que se aplicam a todos os contextos de localização. Elas complementam o estilo de escrita e garantem consistência na aplicação.
 
-The classic template will automatically be added to your project after you run the command:
+[Regras de Escrita](./regras-de-escrita.md)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Módulos
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+---
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+> A estrutura do selo é dividida em módulos específicos, cada um com diretrizes próprias que se adaptam aos diferentes elementos dos jogos.
 
-## Start your site
+<DocCardList items={[
+  {
+    type: 'link',
+    href: '/docs/interface',
+    label: 'Interface',
+    description: 'Diretrizes visuais dos jogos',
+  },
+  {
+    type: 'link',
+    href: '/docs/persona',
+    label: 'Persona',
+    description: 'Perfis e comportamentos dos jogadores',
+  },
+]} />
 
-Run the development server:
+<!-- [Documentos Literários](#)
 
-```bash
-cd my-website
-npm run start
-```
+[Tutorial](#) -->
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## Licença
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+---
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+  Todo conteúdo do Selo **Casual-Friendly**, criado por **DuHNunes**, está licenciado sob a **Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)**.
+
+Isso significa que qualquer pessoa pode:
+
+- **Compartilhar** - copiar e redistribuir o material em qualquer suporte ou formato.
+- **Adaptar** - remixar, transformar e criar a partir do material para qualquer fim, inclusive comercial.
+
+Desde que respeite a seguinte condição:
+
+- **Atribuição** - é obrigatório dar o devido crédito, fornecer um link para a licença e indicar se mudanças foram feitas. Isso pode ser feito de maneira razoável, sem sugerir que o licenciante endossa o uso.
+
+  Não há restrições adicionais - você não pode aplicar termos legais ou medidas tecnológicas que restrinjam legalmente outros de fazer algo permitido pela licença.
+
+  Essa escolha reforça o compromisso do projeto com a colaboração, a acessibilidade e a liberdade do uso, mantendo o reconhecimento da autoria original.
+
+### Jurídico
+
+---
+
+> O texto jurídico completo da licença **Creative Commons Attribution 4.0 Internacional (CC BY 4.0)** pode ser acessado diretamente no site oficial:
+
+
+[Legal Code - Attribution 4.0 International - Creative Commons](https://creativecommons.org/licenses/by/4.0/legalcode)
