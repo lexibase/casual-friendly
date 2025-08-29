@@ -75,8 +75,8 @@ const config: Config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang.
   i18n: {
-    defaultLocale: 'pt-br',
-    locales: ['pt-br'],
+    defaultLocale: 'pt-BR',
+    locales: ['pt-BR'],
   },
 
   presets: [
@@ -84,6 +84,18 @@ const config: Config = {
       'classic',
       {
         docs: {
+          lastVersion: '2025.1',
+          versions: {
+            current: {
+              label: 'Canary',
+              path: 'canary',
+              banner: 'unreleased',
+            },
+            '2025.1': {
+              label: '2025.1',
+              path: '2025.1',
+            },
+          },
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -114,6 +126,11 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/logo-dark.png',
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     navbar: {
       title: 'Casual-Friendly',
       logo: {
@@ -124,12 +141,24 @@ const config: Config = {
       },
       items: [
         {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          dropdownActiveClassDisabled: false,
+          dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+          versions: {
+            current: {label: '🐦 Canary'},
+            '2025.1': {label: '📦 2025.1'},
+          },
+           dropdownItemsBefore: []
+        },
+        {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'sidebarIntro',
           position: 'right',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'right'},
+        // {to: '/changelog', label: 'Changelog', position: 'right' },
+        // {to: '/blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/lexibase/casual-friendly',
           position: 'right',
