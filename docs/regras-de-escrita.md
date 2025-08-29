@@ -1,4 +1,7 @@
 ---
+id: regras-de-escrita
+title: Regras de Escrita
+sidebar: sidebarIntro
 sidebar_position: 2
 ---
 
