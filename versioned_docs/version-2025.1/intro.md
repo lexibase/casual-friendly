@@ -9,9 +9,7 @@ import DocCardList from '@theme/DocCardList';
 # Casual-Friendly
 
 ---
-14 de agosto de 2025
 
----
 
 O **Casual-Friendly** é um selo linguístico de padronização de localização voltado para jogos, criado com o propósito de tornar a experiência de jogo mais acessível, fluida e envolvente para o público casual. Ele estabelece diretrizes claras que orientam tradutores na criação de conteúdos que respeitam o estilo original, mas que também priorizam naturalidade, clareza e empatia na comunicação.
 

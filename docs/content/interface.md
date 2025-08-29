@@ -6,12 +6,6 @@ sidebar_position: 3
 
 ---
 
-14 de agosto de 2025 
-
-27 de agosto de 2025 
-
----
-
 Esse módulo trata dos elementos visuais e funcionais com os quais o jogador interage diretamente — como menus, mapas, botões, painéis, inventários, barras de progresso, ícones e sistemas de navegação.
 
 A proposta do módulo **CF-Interface** é aplicar conceitos básicos de UX Writting para tornar a comunicação da interface intuitiva, clara e acolhedora para jogadores casuais.
