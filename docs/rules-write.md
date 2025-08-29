@@ -1,17 +1,11 @@
 ---
-id: regras-de-escrita
+id: rules-write
 title: Regras de Escrita
 sidebar: sidebarIntro
 sidebar_position: 2
 ---
 
 # Regras de Escrita
-
----
-
-19 de agosto de 2025
-
-26 de agosto de 2025
 
 ---
 
@@ -25,10 +19,8 @@ O **travessão (—)** deve ser utilizado exclusivamente em **contextos literár
 - Inserções explicativas em **textos narrativos**
 - Destaques estilísticos em **crônicas, cartas ou colunas**
 
-:::danger Cuidado
-
+:::danger
 **Evite o uso de travessão em conversas informais**, transcrições de fala direta (como diálogos), e textos funcionais. Nesses casos, prefira vírgulas, aspas ou pontuação convencional.
-
 :::
 
 # Uso de Reticências

@@ -8,7 +8,8 @@ const sidebars: SidebarsConfig = {
       collapsible: false,
       items: [
         { type: 'doc', id: 'intro' },
-        { type: 'doc', id: 'regras-de-escrita' },
+        { type: 'doc', id: 'rules-write' },
+        { type: 'doc', id: 'license' },
       ],
     },
     {
